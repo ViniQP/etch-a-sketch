@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGrid {
+    display: flex;
+    margin-top: 10%;
+
+}
+
+.lineDiv {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
