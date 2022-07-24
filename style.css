@@ -2,16 +2,64 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body {
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketchBody {
+    display: flex;
+    flex-flow: row;
+    align-items: start;
+    justify-content: flex-start;
+    color: white;
+}
+
+.gridSpace {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .containerGrid {
     display: flex;
     margin-top: 10%;
+    border: 5px solid #3A4F41;
+    margin: 0;
 
 }
 
+
 .lineDiv {
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
+
+    background-color: white;
+
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+    margin-top: 80px;
+    justify-content: start;
+    gap: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    border: 5px solid #F5E663;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+}
+
+.button:hover {
+    opacity: 75%;
 }
